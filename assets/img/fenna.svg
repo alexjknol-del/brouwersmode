@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustratie van Fenna Brouwers">
+  <defs>
+    <clipPath id="round"><rect width="400" height="400" rx="28"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0e2d3"/>
+      <stop offset="1" stop-color="#e3cdb6"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a4a28"/>
+      <stop offset="1" stop-color="#5e3719"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="400" height="400" fill="url(#bg)"/>
+    <circle cx="200" cy="150" r="120" fill="#f2d8c2" opacity="0.55"/>
+    <!-- shoulders / blouse -->
+    <path d="M92 400c0-62 48-108 108-108s108 46 108 108Z" fill="#9c5f3b"/>
+    <path d="M200 300c-30 0-52 10-66 26 18 10 40 16 66 16s48-6 66-16c-14-16-36-26-66-26Z" fill="#b8794f"/>
+    <!-- neck -->
+    <path d="M178 250h44v40c0 12-10 20-22 20s-22-8-22-20Z" fill="#e6b892"/>
+    <!-- hair back -->
+    <path d="M118 176c0-58 38-104 82-104s82 46 82 104c0 40-6 70-16 96-6-40-8-96-8-96s-24 20-58 20-58-20-58-20 -2 56-8 96c-10-26-16-56-16-96Z" fill="url(#hair)"/>
+    <!-- face -->
+    <path d="M138 168c0-40 28-70 62-70s62 30 62 70-28 86-62 86-62-46-62-86Z" fill="#f0c6a4"/>
+    <!-- ears -->
+    <circle cx="140" cy="182" r="11" fill="#f0c6a4"/>
+    <circle cx="260" cy="182" r="11" fill="#f0c6a4"/>
+    <circle cx="140" cy="184" r="4" fill="#e6b892"/>
+    <circle cx="260" cy="184" r="4" fill="#e6b892"/>
+    <!-- earrings (nod to jewelry focus) -->
+    <circle cx="140" cy="198" r="4" fill="#c9a24b"/>
+    <circle cx="260" cy="198" r="4" fill="#c9a24b"/>
+    <!-- hair front fringe -->
+    <path d="M138 170c2-44 30-72 62-72s60 28 62 72c-14-22-30-34-30-34s-6 18-32 18-30-14-30-14-18 8-32 30Z" fill="url(#hair)"/>
+    <path d="M138 170c-2 20 0 34 0 34l8-2c-2-14-2-24-2-24Z" fill="#5e3719"/>
+    <path d="M262 170c2 20 0 34 0 34l-8-2c2-14 2-24 2-24Z" fill="#5e3719"/>
+    <!-- brows -->
+    <path d="M158 176c8-5 20-5 28 0" fill="none" stroke="#6b4326" stroke-width="4" stroke-linecap="round"/>
+    <path d="M214 176c8-5 20-5 28 0" fill="none" stroke="#6b4326" stroke-width="4" stroke-linecap="round"/>
+    <!-- eyes -->
+    <ellipse cx="172" cy="192" rx="7" ry="8.5" fill="#3a2a1e"/>
+    <ellipse cx="228" cy="192" rx="7" ry="8.5" fill="#3a2a1e"/>
+    <circle cx="174" cy="189" r="2.4" fill="#fff"/>
+    <circle cx="230" cy="189" r="2.4" fill="#fff"/>
+    <!-- nose -->
+    <path d="M198 198c-2 10-6 16-4 20 2 3 8 3 12 0" fill="none" stroke="#d99f77" stroke-width="3" stroke-linecap="round"/>
+    <!-- blush -->
+    <ellipse cx="166" cy="214" rx="10" ry="6" fill="#e79b78" opacity="0.4"/>
+    <ellipse cx="234" cy="214" rx="10" ry="6" fill="#e79b78" opacity="0.4"/>
+    <!-- smile -->
+    <path d="M182 224c8 8 28 8 36 0" fill="none" stroke="#b5603f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
