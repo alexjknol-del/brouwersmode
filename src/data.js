@@ -185,29 +185,6 @@ const SHOPS = [
     ]
   },
   {
-    slug: 'suitable',
-    name: 'Suitable',
-    url: 'https://www.suitableshop.nl',
-    segment: 'heren',
-    wm: { color: '#424153', style: 'sans' },
-    tagline: 'Bekroonde herenmodewinkel met eigen labels en 28 fysieke winkels.',
-    intro: 'Suitable draait sinds 2001 om verzorgde herenmode en is meerdere jaren uitgeroepen tot beste herenmodewinkel bij de Shopping Awards. Het assortiment loopt van overhemden en polo’s tot pakken, schoenen en accessoires, met meer dan vijftig merken en eigen labels als Suitable, Steppin’ Out en KING Essentials.',
-    facts: [
-      { k: 'Opgericht', v: '2001' },
-      { k: 'Winkels', v: '28 in NL en BE' },
-      { k: 'Merken', v: '50+' },
-      { k: 'Bezorging', v: 'Gratis thuisbezorgd' }
-    ],
-    categories: ['Overhemden en polo’s', 'Jeans en broeken', 'Pakken en colberts', 'Schoenen', 'Accessoires', 'Ondergoed en loungewear'],
-    special: 'De combinatie van bekroonde service, duurzame materialen en persoonlijk stylingadvies onderscheidt Suitable. Online en 28 fysieke winkels versterken elkaar, met Thuiswinkel Waarborg als extra zekerheid.',
-    usps: [
-      'Meermaals bekroond bij de Shopping Awards',
-      'Eigen labels naast 50+ merken',
-      'Aandacht voor duurzame materialen',
-      'Gratis thuisbezorgd en Thuiswinkel Waarborg'
-    ]
-  },
-  {
     slug: 'america-today',
     name: 'America Today',
     url: 'https://www.america-today.com/nl-nl',
@@ -373,13 +350,13 @@ const ARTICLES = [
     date: '2026-06-24',
     dateLabel: '24 juni 2026',
     excerpt: 'Een strijkvrij overhemd kost meer, maar bespaart tijd en gaat langer mee. Een nuchtere blik op stof, pasvorm en de rol van goede basics.',
-    related: ['hemdvoorhem', 'suitable'],
+    related: ['hemdvoorhem'],
     body: [
       ['p', 'Een overhemd dat na de was niet gestreken hoeft te worden klinkt als een detail, maar telt op over een jaar. Voor wie regelmatig een net overhemd draagt, is de tijdwinst aanzienlijk. De vraag is niet óf het loont, maar hoe een strijkvrije garderobe verstandig wordt opgebouwd.'],
       ['h2', 'Wat strijkvrij precies inhoudt'],
       ['p', 'Strijkvrije overhemden worden geweven en afgewerkt zodat ze na wassen en drogen glad blijven. Het weefsel herstelt zijn vorm, waardoor een kreukvrije uitstraling overblijft zonder strijkbout. HemdVoorHem heeft zich hierin gespecialiseerd en biedt persoonlijk maatadvies, inclusief extra lange mouwlengtes voor wie standaardmaten te kort vindt.'],
       ['h2', 'Pasvorm boven alles'],
-      ['p', 'Een strijkvrij overhemd is alleen zo goed als de pasvorm. Schouders die aansluiten, een boord die comfortabel zit en de juiste mouwlengte bepalen of een overhemd er verzorgd uitziet. Merken als Suitable bouwen hun herencollectie rond deze fundamenten, met eigen labels en styladvies om de juiste maat te vinden.'],
+      ['p', 'Een strijkvrij overhemd is alleen zo goed als de pasvorm. Schouders die aansluiten, een boord die comfortabel zit en de juiste mouwlengte bepalen of een overhemd er verzorgd uitziet. Een specialist die de herencollectie rond deze fundamenten bouwt en maatadvies geeft, maakt daarin het verschil.'],
       ['h2', 'Basics als fundament'],
       ['p', 'Onder het overhemd begint alles bij goede basics. Nette T-shirts en ondergoed van een consistent merk zorgen voor een strakke basis die niet doorschijnt of uitzakt. Juist die onzichtbare laag maakt het verschil tussen slordig en verzorgd.'],
       ['blockquote', 'Goede basics zijn de onzichtbare investering die de rest van een outfit laat kloppen.'],

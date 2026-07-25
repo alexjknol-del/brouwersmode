@@ -453,7 +453,7 @@ function buildCadeaugids() {
 '<p class="lead">Een cadeau in de mode werkt het best als het persoonlijk voelt. Deze gids sorteert shops op gelegenheid en ontvanger, zodat kiezen sneller gaat.</p>' +
 '</div></section>' +
 '<section class="section"><div class="container stack" style="gap:44px">' +
-block('Voor hem', 'Van een handgemaakte armband op maat tot een strijkvrij overhemd of verzorgde herenmode: cadeaus die dagelijks gedragen worden.', ['milez-bracelets', 'hemdvoorhem', 'suitable']) +
+block('Voor hem', 'Van een handgemaakte armband op maat tot een strijkvrij overhemd: cadeaus die dagelijks gedragen worden.', ['milez-bracelets', 'hemdvoorhem']) +
 block('Voor haar', 'Waterproof sieraden, trendgerichte mode of een stuk met eigen signatuur, afgestemd op smaak en gelegenheid.', ['maeya-jewelry', 'loavies', 'josh-v']) +
 block('Voor thuis en comfort', 'Luxe loungewear en lifestyle als cadeau voor wie houdt van comfort met een verzorgde uitstraling.', ['lounge-we-are', 'sissy-boy', 'america-today']) +
 block('Voor de shopper die alles heeft', 'Brede boetieks en multimerk-shops met cadeaubonnen en een keuze die past bij elk budget.', ['omoda', 'the-little-green-bag', 'nikkie']) +
