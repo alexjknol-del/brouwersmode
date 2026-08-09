@@ -18,6 +18,7 @@ const NAV = [
   { label: 'Nieuws', href: '/nieuws.html' },
   { label: 'Stijlgids', href: '/stijlgids.html' },
   { label: 'Redactie', href: '/redactie.html' },
+  { label: 'Partners', href: '/partners.html' },
   { label: 'Contact', href: '/contact.html' }
 ];
 

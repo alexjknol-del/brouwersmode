@@ -494,6 +494,34 @@ function buildRedactie() {
 }
 
 // Contact
+
+function partnerCard(p) {
+  return (
+'<div class="card partner-card"><div class="card-body">' +
+'<span class="card-tag">' + esc(p.tag) + '</span>' +
+'<h3>' + esc(p.name) + '</h3>' +
+'<p>' + esc(p.desc) + '</p>' +
+'<a class="card-foot" href="' + p.url + '" target="_blank" rel="noopener">' + esc(p.anchor) + '</a>' +
+'</div></div>'
+  );
+}
+
+function buildPartners() {
+  const PARTNERS = [{tag:'Smartshop',name:'Tatanka',desc:'Tatanka is een Nederlandse smartshop met paddo growkits en smartshopproducten, met uitleg per soort en een overzicht van het aanbod.',url:'https://www.tatanka.nl/nl/mazatapec-magic-mushroom-paddo-grow-kit/',anchor:'Mazatapec mushroom growkit'},{tag:'Smartshop',name:'Smartific',desc:'Smartific is een Nederlandse smartshop met magic truffels, growkits en smartshopproducten, inclusief productinformatie per artikel.',url:'https://smartific.nl/atlantis-truffels/',anchor:'Atlantis magic Truffels'},{tag:'Headshop',name:'The Headshop',desc:'The Headshop is een Nederlandse headshop met kratom en smartshopproducten, met een uitgebreid overzicht per soort en sterkte.',url:'https://www.headshop.nl/nl/joint-roller/',anchor:'Joint roller kopen'},{tag:'Paddo growkits',name:'Paddo.shop',desc:'Paddo.shop is een Nederlandse webshop gespecialiseerd in paddo growkits, met uitleg per kweekset en kweekinstructies.',url:'https://www.paddo.shop/',anchor:'Paddos kopen'},{tag:'Magic truffels',name:'Magictruffels.shop',desc:'Magictruffels.shop is een Nederlandse webshop voor magic truffels, met een overzicht per soort en de werking ervan.',url:'https://www.magictruffels.shop/high-hawaiians/',anchor:'high hawaiians'},];
+  const body =
+'<section class="page-hero"><div class="container">' +
+'<p class="eyebrow">Partners</p>' +
+'<h1>Partners en bronnen</h1>' +
+'<p class="lead">BrouwersMode verwijst hier naar externe partners en bronnen.</p>' +
+'</div></section>' +
+'<section class="section"><div class="container"><div class="grid grid-3">' + PARTNERS.map(partnerCard).join('') + '</div></div></section>';
+  write('partners.html', layout({
+    title: 'Partners | BrouwersMode',
+    desc: 'Partners en bronnen waar BrouwersMode naar verwijst.',
+    path: '/partners.html', active: '/partners.html', body: body
+  }));
+}
+
 function buildContact() {
   const mail = SITE.email;
   const body =
@@ -593,7 +621,7 @@ function build404() {
 
 // Sitemap + robots
 function buildSitemapRobots() {
-  const urls = ['/', '/over.html', '/shops.html', '/nieuws.html', '/stijlgids.html', '/cadeaugids.html', '/redactie.html', '/contact.html', '/privacy.html', '/cookies.html', '/disclaimer.html'];
+  const urls = ['/', '/over.html', '/shops.html', '/nieuws.html', '/stijlgids.html', '/cadeaugids.html', '/redactie.html', '/partners.html', '/contact.html', '/privacy.html', '/cookies.html', '/disclaimer.html'];
   SHOPS.forEach(function (s) { urls.push('/shops/' + s.slug + '.html'); });
   ARTICLES.forEach(function (a) { urls.push('/nieuws/' + a.slug + '.html'); });
   const today = '2026-07-24';
@@ -614,6 +642,7 @@ function buildAll() {
   buildStijlgids();
   buildCadeaugids();
   buildRedactie();
+  buildPartners();
   buildContact();
   buildLegal();
   build404();
