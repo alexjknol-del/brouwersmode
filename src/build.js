@@ -166,6 +166,9 @@ function renderBlocks(blocks) {
     if (tag === 'blockquote') {
       return '<blockquote>' + esc(b[1]) + '</blockquote>';
     }
+    if (tag === 'plink') {
+      return '<p>' + b[1] + '</p>';
+    }
     return '<' + tag + '>' + esc(b[1]) + '</' + tag + '>';
   }).join('');
 }

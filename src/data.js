@@ -305,6 +305,33 @@ const SHOPS = [
 // Nieuws-artikelen
 const ARTICLES = [
   {
+    slug: "huispakken-kwaliteit-herkennen",
+    kicker: 'Materiaal',
+    title: "Loungewear die niet na drie wasbeurten uitzakt",
+    date: '2026-08-19',
+    dateLabel: '19 augustus 2026',
+    excerpt: "Aan een huispak is bij aankoop vaak niet te zien hoe het zich na een winter houdt.",
+    related: [],
+    body: [
+      ['p', "Loungewear is het segment waarin de verschillen in kwaliteit het langst verborgen blijven. In de winkel voelt vrijwel alles zacht; pas na een stuk of tien wasbeurten wordt duidelijk wat er van overblijft."],
+      ['h2', "Waar de zwakke plekken zitten"],
+      ['p', "De eerste plek is de tailleband. Een band met alleen een ingestikt elastiek verliest spanning zodra het elastiek een keer te warm is gewassen. Een band met een doorgestikt koord of met meerdere smalle elastieken houdt het aanzienlijk langer vol."],
+      ['p', "De tweede plek zijn de manchetten en de enkelboorden. Boorden van geribd breisel met een aandeel elastaan veren terug; boorden die uit dezelfde stof als de rest zijn gemaakt, gaan hangen en komen niet meer strak."],
+      ['h2', "Materiaal en pilling"],
+      ['p', "Katoen en modal: ademend, kreukt wat, blijft lang mooi. Fleece en teddy: warm, maar gevoelig voor pilling bij wrijving. Velours: mooi in de eerste maanden, gevoelig voor drukplekken. Mousseline: luchtig, kreukt zichtbaar, geschikt voor zomer."],
+      ['plink', "Pilling ontstaat vooral op de plaatsen waar stof over stof schuurt: binnenkant bovenarm, zitvlak en de binnenzijde van de dijen. Een set die daar na een seizoen nog glad is, is doorgaans van een langere vezel gemaakt. Het aanbod staat bij <a href=\"https://loungeweare.com/collections/loungewear-dames\" rel=\"nofollow\">LoungeWeAre</a>."],
+      ['h2', "Passen zonder pasruimte"],
+      ['p', "Bij online bestellen is de maattabel bruikbaarder dan de maataanduiding. Loungewear valt per merk sterk verschillend, en een set die aan de heup te krap zit, gaat pillen op precies die plek."],
+      ['plink', "Wie loungewear ook buitenshuis wil kunnen dragen, komt eerder uit bij een joggingpak dan bij een klassiek huispak: dezelfde stof, maar met een strakkere snit en een afwerking die niet als nachtkleding leest. Die uitvoeringen staan op <a href=\"https://loungeweare.com/collections/joggingpakken-dames\" rel=\"nofollow\">loungeweare.com</a>."],
+      ['h2', "Onderhoud"],
+      ['p', "Dertig graden, binnenstebuiten en zonder wasverzachter is voor vrijwel elke uitvoering de veiligste route. Wasverzachter legt een laagje op de vezel dat het vocht juist minder goed opneemt en versnelt bij fleece de pilling."],
+      ['p', "Drogen aan de lijn scheelt eveneens. In de droger krimpen katoen en modal geleidelijk, en dat is niet meer terug te draaien; bij teddy en velours plet de warmte bovendien de pool, waarna de stof dof blijft."],
+      ['h2', "Wat een set bruikbaar houdt"],
+      ['p', "Een huispak dat alleen thuis op de bank kan, wordt in de praktijk minder gedragen dan een uitvoering die ook kan wanneer er onverwacht wordt aangebeld. Een broek met een nette pijp en een top zonder opdruk maakt dat verschil, zonder dat het comfort inlevert."],
+      ['p', "Let daarbij op zakken. Een broek zonder zakken betekent een telefoon die overal blijft liggen, en dat is de meest genoemde reden waarom een verder prettige set in de kast blijft hangen. Een enkele steekzak aan de zijkant volstaat en verstoort de lijn niet."]
+    ]
+  },
+  {
     slug: 'zomertrends-2026',
     kicker: 'Trends',
     title: 'Zomertrends 2026: kleuren, silhouetten en materialen die het seizoen bepalen',
