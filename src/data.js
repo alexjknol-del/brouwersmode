@@ -305,6 +305,34 @@ const SHOPS = [
 // Nieuws-artikelen
 const ARTICLES = [
   {
+    slug: "parfum-navullen-hoe-het-werkt",
+    kicker: 'Beauty',
+    title: "Parfum navullen: hoe het werkt en waar het kan",
+    date: '2026-09-06',
+    dateLabel: '6 september 2026',
+    excerpt: "Een flacon is voor het grootste deel verpakking. Navullen verandert de rekensom, en de keuze verloopt via geurfamilies in plaats van via merknamen.",
+    related: [],
+    body: [
+      ['p', "In vrijwel elke badkamerkast staan flacons die half vol zijn en niet meer gebruikt worden. Ze zijn ooit gekocht om de fles, om de aanbieding of om het merk, en niet omdat de geur bij dagelijks gebruik beviel. Dat patroon verandert zodra parfum los van de verpakking gekocht kan worden."],
+      ['h2', "Waar de prijs van een flacon in zit"],
+      ['p', "Een gemiddelde flacon bestaat uit glas, een verstuiver, een dop, een doos en cellofaan. De inhoud is voor het grootste deel alcohol met daarin een percentage geurolie. Dat percentage bepaalt de aanduiding: eau de toilette ligt doorgaans rond de tien procent, eau de parfum hoger, parfum extrait het hoogst."],
+      ['p', "Bij navullen blijft de flacon staan en wordt alleen die inhoud vervangen. Dat scheelt verpakkingsmateriaal en het maakt kleinere hoeveelheden mogelijk, waardoor een geur uitgeprobeerd kan worden zonder dat er honderd milliliter van in huis komt."],
+      ['h2', "Kiezen op geurfamilie"],
+      ['p', "Bij een navulpunt loopt de keuze via geurfamilies. Bloemig, citrus, fruitig, houtachtig, oriëntaals, chypre en aquatisch zijn de gangbare indelingen. Wie weet welke familie bevalt, komt sneller uit bij iets passends dan wie op merknaam zoekt, omdat binnen een merk vaak vijf families naast elkaar staan."],
+      ['plink', "Voor damesgeuren is de indeling het fijnmazigst, met onderverdelingen als aldehyden, damastbloem en amberachtig. Het overzicht per familie staat bij <a href=\"https://www.parfumpointrefill.nl/c/dames-parfum/\" rel=\"noopener\" target=\"_blank\">Parfum Point Refill</a>."],
+      ['h2', "Testen op de huid, niet op papier"],
+      ['p', "Een geurstrip laat alleen de kopnoten horen, de eerste vijftien minuten. Wat daarna komt, de hart- en basisnoten, ontwikkelt zich pas op de huid en verschilt per persoon. Twee mensen die dezelfde geur dragen, ruiken na een paar uur niet hetzelfde."],
+      ['p', "Praktisch betekent dat: maximaal twee geuren tegelijk proberen, op de binnenkant van de pols, niet wrijven, en pas na een halve dag beslissen. Wie meer tegelijk test, ruikt na de derde niets meer."],
+      ['h2', "Waar het kan"],
+      ['plink', "Navullen gebeurt bij verkooppunten met de daarvoor bestemde apparatuur, verspreid over het land, vaak in combinatie met een salon of een winkel. Het overzicht van locaties staat op <a href=\"https://www.parfumpointrefill.nl/verkooppunten/\" rel=\"noopener\" target=\"_blank\">https://www.parfumpointrefill.nl/verkooppunten/</a>."],
+      ['h2', "Bewaren"],
+      ['p', "Licht, warmte en temperatuurwisselingen tasten de samenstelling aan. Dat maakt de badkamer de minst geschikte plek, precies de plek waar de meeste flacons staan. Donker en op kamertemperatuur blijft een geur jaren goed."],
+      ['p', "Een geopende flacon houdt zich doorgaans drie tot vijf jaar. Verkleuring naar donkerder geel en een scherpe alcoholgeur bij de eerste verstuiving zijn de signalen dat de inhoud over de houdbaarheid heen is."],
+      ['h2', "Wat het oplevert in de kast"],
+      ['p', "De praktische winst zit niet in één aankoop maar in het patroon. Wie per keer een hoeveelheid kiest die daadwerkelijk opgaat, houdt drie bruikbare geuren over in plaats van acht halve flessen, en dat is precies het verschil tussen een verzameling en een voorraad."]
+    ]
+  },
+  {
     slug: "huispakken-kwaliteit-herkennen",
     kicker: 'Materiaal',
     title: "Loungewear die niet na drie wasbeurten uitzakt",
