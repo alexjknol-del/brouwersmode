@@ -305,6 +305,30 @@ const SHOPS = [
 // Nieuws-artikelen
 const ARTICLES = [
   {
+    slug: "leren-handschoenen-kwaliteit-herkennen",
+    kicker: 'Materiaal',
+    title: "Leren handschoenen: waar de kwaliteit zichtbaar is en waar niet",
+    date: '2026-09-26',
+    dateLabel: '26 september 2026',
+    excerpt: "Het verschil tussen een paar dat tien winters meegaat en een paar dat na een seizoen op de naden opengaat, zit in drie details.",
+    related: [],
+    body: [
+      ['p', "Leren handschoenen zijn een van de weinige accessoires waar prijs en levensduur nog redelijk samenhangen, en tegelijk een van de weinige waar de koper bij de aankoop bijna niets kan zien. De huid ziet er nieuw altijd goed uit. Wat het paar over vijf winters doet, ligt in de naad, de voering en de snit."],
+      ['h2', "De naad bij de vingertoppen"],
+      ['p', "Handschoenen gaan zelden stuk op het leer zelf. Ze scheuren bij de vingertoppen, op de plek waar de naad het meeste trekt bij het uit een zak halen van een telefoon of een sleutel. Een naad die aan de binnenkant ligt en met een dubbele steek is doorgezet, houdt dat jaren. Een enkel doorgestikte buitennaad geeft na een seizoen al ruimte bij de top van de wijsvinger."],
+      ['h2', "Voering en volume"],
+      ['p', "Een voering van wol of kasjmier levert per millimeter de meeste warmte en is daarmee bedoeld voor wie lang buiten staat. De prijs is volume: een gevoerd paar voelt duidelijk dikker en kost iets aan fijne motoriek. Ongevoerd leer houdt warm door wind buiten te sluiten, wat in een stedelijke winter de grootste factor is, en laat een pinpas en een telefoon bruikbaar."],
+      ['h2', "De maat is een omtrek, geen letter"],
+      ['plink', 'Handschoenmaten lopen per merk uiteen, dus de letters zeggen weinig. De bruikbare maat is de omtrek van de hand op het breedste punt, net onder de knokkels en zonder de duim mee te rekenen. Bij twijfel geldt voor ongevoerd leer de kleinere maat, omdat het materiaal na een paar keer dragen meegeeft, en voor een gevoerd paar de grotere, omdat een voering ruimte inneemt en nauwelijks comprimeert. Bij <a href="https://www.lerengoederen.nl/product-categorie/leren-handschoenen/">Leren Goederen</a> staan de dames- en herenmodellen per snit bij elkaar, met de maatbepaling via de handomtrek erbij.'],
+      ['h2', "Manchetlengte als kledingkeuze"],
+      ['p', "De manchet bepaalt of het paar onderdeel van de outfit wordt of eronder verdwijnt. Een korte manchet schuift onder de mouw van een wollen jas en valt niet op, wat bij een colbert of een pak de veiligste keuze is. Een langere manchet sluit beter af bij een korte jas en bij het rijden, maar wordt dan zichtbaar en vraagt om afstemming met de schoenen of de tas. Zwart bij zwarte schoenen, cognac of donkerbruin bij bruin leer, en daarmee is het in vrijwel elke situatie opgelost."],
+      ['h2', "Inlopen hoort erbij"],
+      ['p', "Een nieuw paar zit de eerste keren strak over de knokkels. Dat verdwijnt na een paar keer dragen, want leer volgt de plooilijnen van de hand en zit daarna nauwer zonder te knellen. Oprekken met een stretcher is bij soepel leer af te raden, omdat het paar dan op een enkel punt te wijd wordt en daar gaat rimpelen."],
+      ['h2', "Wat de levensduur echt bekort"],
+      ['p', "Nat leer op een radiator is de snelste manier om een paar te verliezen. Droge hitte haalt het vet uit de vezel, waarna die hard wordt en op de plooi scheurt. Plat drogen op kamertemperatuur en een of twee keer per winter een dun laagje leervet houdt het materiaal soepel. Met die routine haalt een goed passend paar tien winters, en zit het elk seizoen beter dan het eerste."]
+    ]
+  },
+  {
     slug: "parfum-navullen-hoe-het-werkt",
     kicker: 'Beauty',
     title: "Parfum navullen: hoe het werkt en waar het kan",
