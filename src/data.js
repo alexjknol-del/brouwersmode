@@ -305,6 +305,30 @@ const SHOPS = [
 // Nieuws-artikelen
 const ARTICLES = [
   {
+    slug: "geborduurde-bedrijfskleding-merkidentiteit",
+    kicker: 'Zakelijk',
+    title: "Bouw een premium merk met geborduurde bedrijfskleding",
+    date: '2026-09-28',
+    dateLabel: '28 september 2026',
+    excerpt: "Bedrijfskleding is vaak het eerste wat een klant van een organisatie ziet. Waarom borduren daarbij langer meegaat dan bedrukken, en waar het logo het beste tot zijn recht komt.",
+    related: [],
+    body: [
+      ['p', "Een sterke merkidentiteit begint niet bij de website of het logo op de gevel, maar bij de mensen die namens een bedrijf naar buiten treden. Wat zij dragen, bepaalt voor een groot deel de eerste indruk. Stijlvolle bedrijfskleding met een geborduurd logo geeft een organisatie een verzorgde en duurzame uitstraling, en die uitstraling blijft bij klanten hangen."],
+      ['h2', "Waarom professionele bedrijfskleding telt"],
+      ['p', "De eerste indruk bepaalt veel in het klantcontact. Wanneer medewerkers dezelfde kleding dragen, straalt dat direct betrouwbaarheid uit. Eenheid in kleding laat zien dat een organisatie oog heeft voor detail en kwaliteit nastreeft in elk onderdeel van de dienstverlening, en dat wekt vertrouwen bij de doelgroep."],
+      ['p', "Daarnaast helpt eenduidige kleding om op te vallen. Klanten herkennen medewerkers direct, op de werkvloer en tijdens een druk evenement. Die consistente presentatie versterkt de geloofwaardigheid van een merk. Herkenbare bedrijven bouwen sneller een vaste klantenkring op."],
+      ['h2', "Borduren of bedrukken"],
+      ['plink', "Bij het personaliseren van kleding is de keuze van de techniek bepalend voor het resultaat. Veel bedrijven kiezen voor <a href=\"https://www.totzienspromotions.nl/textiel\">Textiel borduren</a>, omdat die methode een lange levensduur heeft. Een geborduurd logo blijft mooi, ook na talloze wasbeurten. De kleuren vervagen niet en de draden slijten nauwelijks."],
+      ['p', "Borduurwerk geeft bovendien een chique uitstraling aan kledingstukken als polo's en overhemden. Het logo krijgt reliëf op de stof, waardoor het ontwerp tot leven komt en de waargenomen waarde van de kleding stijgt. Borduren is ook geschikt voor dikkere stoffen, zoals warme jassen en fleecevesten, waar drukwerk minder goed hecht."],
+      ['h2', "Teamgeest en zichtbaarheid"],
+      ['p', "Bedrijfskleding doet meer dan een merk vertegenwoordigen. Dezelfde kleding dragen versterkt het groepsgevoel onder medewerkers en schept gelijkheid op de werkvloer. Medewerkers voelen zich sneller verbonden met de organisatie."],
+      ['p', "Tegelijk werkt een team als een wandelend uithangbord. Overal waar medewerkers komen, is het logo subtiel zichtbaar, wat de lokale bekendheid op een natuurlijke manier vergroot. De plaats van het logo maakt daarbij verschil: een klein logo op de borst oogt ingetogen en zakelijk, een grotere uiting op de rug valt op afstand op."],
+      ['h2', "Van keuze tot kledingstuk"],
+      ['plink', "TotZiens Promotions is gespecialiseerd in promotieartikelen en helpt bedrijven bij het realiseren van een sterke merkuitstraling, met advies over de kledingstukken die bij een branche passen. Het aanbod loopt van stevige werkbroeken tot nette overhemden. Bij <a href=\"https://www.totzienspromotions.nl/\">Totzienspromotions</a> staat de werkwijze beschreven: een snelle offerte met een helder kostenoverzicht, een gratis digitale proefdruk waarop vooraf te zien is hoe het logo eruitziet, en een assortiment dat bij uiteenlopende budgetten past."],
+      ['p', "Wie de uitstraling van een onderneming wil verbeteren met representatieve kleding, doet er goed aan eerst te bepalen welke kledingstukken dagelijks gedragen worden en in welke omstandigheden. Daar volgen de stofkeuze, de techniek en de plaats van het logo vanzelf uit."]
+    ]
+  },
+  {
     slug: "leren-handschoenen-kwaliteit-herkennen",
     kicker: 'Materiaal',
     title: "Leren handschoenen: waar de kwaliteit zichtbaar is en waar niet",
